@@ -1,3 +1,23 @@
-.colorful {
-  color: $clrHilight;
+h1.rand_num {
+  text-align: center;
+  margin:40px 0px 40px 0px;
+}
+
+span.rand_num {
+  //text-align: center;
+  background: $bkgrndGray;
+  border: 3px solid darken($bkgrndGray, 40%);
+  display: inline-block;
+    /* float:left;  remove*/
+
+  padding:5px 20px;
+  //border-color: darken($bkgrndGray, 100%);
+  //border-style: solid;
+  //border-width: 5px;
+  @include border-radius(10px);
+}
+
+p {
+  margin: 40px 0px 40px 0px;
+  text-align: left;
 }

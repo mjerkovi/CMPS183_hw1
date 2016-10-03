@@ -1,10 +1,11 @@
 {{extend 'layout.html'}}
-
-<h1>{{=title}}</h1>
-
-{{=n}}
-
-<div>
-    <p>{{=paragraph1}}</p>
-    <p>{{=paragraph2}}</p>
-</div>
+<body>
+    <h1>{{=title}}</h1>
+    <h1 class="rand_num">
+        <span class="rand_num">{{=n}}</span>
+    </h1>
+    <div>
+        <p>Paragraph 1 {{=paragraph1}}</p>
+        <p>Paragraph 2 {{=paragraph2}}</p>
+    </div>
+</body>

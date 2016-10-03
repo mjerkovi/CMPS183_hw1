@@ -1,4 +1,23 @@
 /* line 1, ../sass/_main.scss */
-.colorful {
-  color: #bb8833;
+h1.rand_num {
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+
+/* line 6, ../sass/_main.scss */
+span.rand_num {
+  background: #dfdfdf;
+  border: 3px solid #797979;
+  display: inline-block;
+  /* float:left;  remove*/
+  padding: 5px 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 20, ../sass/_main.scss */
+p {
+  margin: 40px 0px 40px 0px;
+  text-align: left;
 }
