@@ -6,17 +6,16 @@ h1.rand_num {
 
 /* line 6, ../sass/_main.scss */
 span.rand_num {
-  background: #dfdfdf;
-  border: 3px solid #797979;
+  background: #e5e5e5;
+  border: 3px solid #999999;
   display: inline-block;
-  /* float:left;  remove*/
-  padding: 5px 20px;
+  padding: 5px 35px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
-/* line 20, ../sass/_main.scss */
+/* line 14, ../sass/_main.scss */
 p {
   margin: 40px 0px 40px 0px;
   text-align: left;

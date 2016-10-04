@@ -4,16 +4,10 @@ h1.rand_num {
 }
 
 span.rand_num {
-  //text-align: center;
   background: $bkgrndGray;
-  border: 3px solid darken($bkgrndGray, 40%);
+  border: 3px solid darken($bkgrndGray, 30%);
   display: inline-block;
-    /* float:left;  remove*/
-
-  padding:5px 20px;
-  //border-color: darken($bkgrndGray, 100%);
-  //border-style: solid;
-  //border-width: 5px;
+  padding:5px 35px;
   @include border-radius(10px);
 }
 
